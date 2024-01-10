@@ -1,0 +1,7 @@
+
+get: used to fetch data from server
+post: used to post data to server(update,insert)
+put: used to update data to server
+
+parse data from form we use : app.use(express.json())
+                            app.use(express.urlencoded({ extended: true }))
